@@ -44,8 +44,30 @@ public class Operadores {
 //        System.out.println("b " + b);
 
         // Negacion ! (invierte el valor logico)
-        var c = true;
-        var resultado2 = !c;
-        System.out.println("Negacion !c = " + resultado2);
+//        var c = true;
+//        var resultado2 = !c;
+//        System.out.println("Negacion !c = " + resultado2);
+
+        // Operadores Relacionales(3)
+        int a = 3, b = 2;
+        //igualdad ==
+        var resultado = a == b;
+        System.out.println("Resultado a == b : " + resultado);
+        //distinto !=
+        resultado = a != b;
+        System.out.println("Resultado a != b : " + resultado);
+        //Mayor que
+        resultado = a > b;
+        System.out.println("Resultado a > b : " + resultado);
+        //Mayor que o igual
+        resultado = a >= b;
+        System.out.println("Resultado a >= b : " + resultado);
+        // menor que
+        resultado = a < b;
+        System.out.println("Resultado a < b : " + resultado);
+        // menor que o igual
+        resultado = a <= b;
+        System.out.println("Resultado a <= b : " + resultado);
+
     }
 }
