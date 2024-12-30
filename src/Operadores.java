@@ -49,25 +49,41 @@ public class Operadores {
 //        System.out.println("Negacion !c = " + resultado2);
 
         // Operadores Relacionales(3)
-        int a = 3, b = 2;
-        //igualdad ==
-        var resultado = a == b;
-        System.out.println("Resultado a == b : " + resultado);
-        //distinto !=
-        resultado = a != b;
-        System.out.println("Resultado a != b : " + resultado);
-        //Mayor que
-        resultado = a > b;
-        System.out.println("Resultado a > b : " + resultado);
-        //Mayor que o igual
-        resultado = a >= b;
-        System.out.println("Resultado a >= b : " + resultado);
-        // menor que
-        resultado = a < b;
-        System.out.println("Resultado a < b : " + resultado);
-        // menor que o igual
-        resultado = a <= b;
-        System.out.println("Resultado a <= b : " + resultado);
+//        int a = 3, b = 2;
+//        //igualdad ==
+//        var resultado = a == b;
+//        System.out.println("Resultado a == b : " + resultado);
+//        //distinto !=
+//        resultado = a != b;
+//        System.out.println("Resultado a != b : " + resultado);
+//        //Mayor que
+//        resultado = a > b;
+//        System.out.println("Resultado a > b : " + resultado);
+//        //Mayor que o igual
+//        resultado = a >= b;
+//        System.out.println("Resultado a >= b : " + resultado);
+//        // menor que
+//        resultado = a < b;
+//        System.out.println("Resultado a < b : " + resultado);
+//        // menor que o igual
+//        resultado = a <= b;
+//        System.out.println("Resultado a <= b : " + resultado);
+
+
+        // Operadores logicos.
+        //operador and (&&)
+        boolean a = true, b = false;
+        //and (regresa true solo si ambos valores son true)
+        var resultado = a && b;
+        System.out.println("Resultado: a && b = " + resultado);
+
+        //operador or (||)
+        resultado = a || b;
+        System.out.println("Resultado: a || b = " + resultado);
+
+        //operador not (!)
+        resultado = !a;
+        System.out.println("Resultado: !a = " + resultado);
 
     }
 }
