@@ -70,20 +70,33 @@ public class Operadores {
 //        System.out.println("Resultado a <= b : " + resultado);
 
 
-        // Operadores logicos.
+        // Operadores logicos(4).
         //operador and (&&)
-        boolean a = true, b = false;
-        //and (regresa true solo si ambos valores son true)
-        var resultado = a && b;
-        System.out.println("Resultado: a && b = " + resultado);
+//        boolean a = true, b = false;
+//        //and (regresa true solo si ambos valores son true)
+//        var resultado = a && b;
+//        System.out.println("Resultado: a && b = " + resultado);
+//
+//        //operador or (||)
+//        resultado = a || b;
+//        System.out.println("Resultado: a || b = " + resultado);
+//
+//        //operador not (!)
+//        resultado = !a;
+//        System.out.println("Resultado: !a = " + resultado);
 
-        //operador or (||)
-        resultado = a || b;
-        System.out.println("Resultado: a || b = " + resultado);
-
-        //operador not (!)
-        resultado = !a;
-        System.out.println("Resultado: !a = " + resultado);
+        //Operadores de asignacion(5).
+        //asignacion =
+        var miNumero = 10;
+        int miNumero2; //declaracion
+        miNumero2 = 5;
+        //asignacion compuesto
+        //+=
+        miNumero += 5; //minumero = miNumero + 5;
+        System.out.println("miNumero = " + miNumero);
+        //-=, *=, /=, >=, <=
+        miNumero *= 2; //minumero = miNumero * 2 = 30
+        System.out.println("miNumero = " + miNumero);
 
     }
 }
